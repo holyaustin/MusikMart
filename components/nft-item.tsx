@@ -15,7 +15,7 @@ const responsiveIframe = {
   right: "0",
   width: "100%",
   height: "100%",
-};
+} as const;
 
 export function NFTItem({ nft, network }: NFTItemProps) {
   return (
@@ -27,11 +27,12 @@ export function NFTItem({ nft, network }: NFTItemProps) {
       <div className="overflow-hidden rounded-2xl bg-white shadow-card">
         <AspectRatio>
           <iframe 
-            className="w-full h-auto object-contain aspect-video" 
-            //objectfit="cover"
-            src={nft.cached_image_uri ?? nft.image_uri}
+            title={nft.name}
             style={responsiveIframe} 
-            alt={nft.name} />
+            src={nft.cached_image_uri ?? nft.image_uri}
+            className="w-full h-auto object-contain aspect-video" 
+            
+          />
         </AspectRatio>
         <div className="p-5 w-full">
           <Typography className="mb-2 font-semibold">{nft.name}</Typography>
