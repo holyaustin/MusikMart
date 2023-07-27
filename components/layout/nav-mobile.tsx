@@ -14,7 +14,7 @@ export const NavigationMobile = ({ trigger }: { trigger: React.ReactNode }) => {
       <SheetContent className="min-w-[360px]" size="sm">
         <SheetHeader>
           <a href="/" className="font-bold">
-            <img src="/assets/logo.png" className="h-10 w-10 rounded-md" />
+            <img src="/images/mic.png" className="h-10 w-10 rounded-md" />
           </a>
         </SheetHeader>
         <div className="gap-4 py-4">
@@ -52,7 +52,7 @@ export const NavigationMobile = ({ trigger }: { trigger: React.ReactNode }) => {
                 <TwitterIcon />
               </IconButton>
               <IconButton color="primary" as="a" href="https://shyft.to/" target="_blank" rel="noopener noreferrer">
-                <img className="h-6 w-auto object-contain" src="/assets/shyft-logo.svg" />
+                <img className="h-6 w-auto object-contain" src="/images/mic.png" />
               </IconButton>
             </div>
           </div>

@@ -27,7 +27,7 @@ export const Header = () => {
         { "lg:h-[60px]": small }
       )}
     >
-      <div className="relative flex h-full min-h-[56px] items-center px-4 md:min-h-[64px] md:px-6 lg:px-10">
+      <div className="relative flex h-full min-h-[56px] items-center px-4 md:min-h-[64px] md:px-6 lg:px-10 bg-red-500">
         <NavigationMobile
           trigger={
             <IconButton className="mr-2 lg:hidden" size="sm">
@@ -35,7 +35,14 @@ export const Header = () => {
             </IconButton>
           }
         />
+                <div className="mb-4 px-5 py-6">
+          <a href="/" className="font-bold">
+            <img src="/images/headphone2.jpeg" className="h-16 w-16 rounded-md" />
+          </a>
+        </div>
         <div className="flex grow items-center justify-end gap-2">
+          <div className="text-2xl"> MusicMart :: Your Music and Musical Art NFT Marketplace 
+          </div>
           <ConnectWalletButton />
         </div>
       </div>

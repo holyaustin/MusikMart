@@ -1,5 +1,6 @@
 export const Routes = {
-  TREE: "/",
+  INDEX: "/",
+  TREE: "/merkle",
   MINT_NFT: "/mint",
   VIEW_NFTS: "/view",
   TRANSFER_NFT: "/transfer",

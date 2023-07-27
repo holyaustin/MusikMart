@@ -41,10 +41,10 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
         description={siteConfig.description}
       />
 
-      <ConnectionProvider endpoint={endpoint}>
+      <ConnectionProvider endpoint={endpoint} >
         <WalletProvider wallets={wallets} autoConnect>
           <WalletModalProvider>
-            <Layout>
+            <Layout >
               <Component {...pageProps} />
               <Toaster />
             </Layout>

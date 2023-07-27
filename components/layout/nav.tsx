@@ -9,6 +9,11 @@ import { IconButton } from "../ui/icon-button"
 
 export const NavItems = [
   {
+    text: "Index Page",
+    href: Routes.INDEX,
+    icon: <TreePineIcon />,
+  },
+  {
     text: "Merkle Tree",
     href: Routes.TREE,
     icon: <TreePineIcon />,
@@ -43,7 +48,7 @@ export const Navigation = () => {
       <div className="fixed flex flex-col left-0 top-0 z-0 h-full w-[280px] overflow-y-auto border-r border-dashed border-r-gray-500/24">
         <div className="mb-4 px-5 py-6">
           <a href="/" className="font-bold">
-            <img src="/assets/logo.png" className="h-10 w-10 rounded-md" />
+            <img src="/images/headphone2.jpeg" className="h-20 w-20 rounded-md" />
           </a>
         </div>
         <div className="flex h-96 flex-col">
