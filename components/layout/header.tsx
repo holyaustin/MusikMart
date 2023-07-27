@@ -35,14 +35,32 @@ export const Header = () => {
             </IconButton>
           }
         />
-                <div className="mb-4 px-5 py-6">
+        <div className="mb-4 px-5 py-6">
           <a href="/" className="font-bold">
             <img src="/images/headphone2.jpeg" className="h-16 w-16 rounded-md" />
           </a>
         </div>
-        <div className="flex grow items-center justify-end gap-2">
-          <div className="text-2xl"> MusicMart :: Your Music and Musical Art NFT Marketplace 
+        <div className="text-2xl font-bold items-start justify-left p-6"> 
+          MusicMart :: Your Music and Musical Art NFT Marketplace 
           </div>
+          <div className="text-2xl font-bold items-start justify-left"> 
+          
+          <ul className="text-2xl font-bold  mb-6 flex flex-wrap items-center text-yellow-500 sm:mb-0">
+            <li>
+              <a href="/view" className="mr-4 hover:underline md:mr-6 ">
+              EXPLORE
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://discord.com/" target="_blank" className="hover:underline">
+                COMMUNITY
+              </a>
+            </li>
+          </ul>
+          </div>
+        <div className="flex grow items-center justify-end gap-2">
+
           <ConnectWalletButton />
         </div>
       </div>

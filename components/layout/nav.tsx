@@ -78,8 +78,8 @@ export const Navigation = () => {
             >
               <TwitterIcon />
             </IconButton>
-            <IconButton color="primary" as="a" href="https://shyft.to/" target="_blank" rel="noopener noreferrer">
-              <img className="h-6 w-auto object-contain" src="/assets/shyft-logo.svg" />
+            <IconButton color="primary" as="a" href="https://musikmart.vercel.app//" target="_blank" rel="noopener noreferrer">
+              <img className="h-6 w-auto object-contain" src="/images/headphone2.jpeg" />
             </IconButton>
           </div>
         </div>
