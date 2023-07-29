@@ -28,21 +28,24 @@ Backend: Shyft API, Node.js,
 Blockchain : Solana (Devnet, Testnet, Mainnet Beta)
  
 ## Demo / Live Links
-Live Dapp - https://talent-musica.vercel.app/
+
+Live Dapp - https://musikmart.vercel.app/
 
 Youtube Url: https://youtu.be/6X2J0Yo-p8A
 
 ## Transaction Nonce demp
-
+```
 ts-node app -waitTime 0 # useNonce is false by default
 
 ts-node app -waitTime 120000 # useNonce is false by default
 
 ts-node app -useNonce -waitTime 120000
+```
 
-Output
+### Output
 
 Attempting to send a transaction using a nonce. Waiting 12000ms before signing to simulate an offline transaction.
+```
 ---Step 1---Funding accounts
 ---Step 2---Creating nonce account
       Nonce Acct Created:  3XzR...USMq
@@ -54,7 +57,7 @@ Attempting to send a transaction using a nonce. Waiting 12000ms before signing t
       Tx written to ./signed.json
 ---Step 5---Executing transaction
       Tx sent:  5Ep3sPV1r1hr73kKQG8Q2xD4B9erPEzW7Hitxwe8iwBooXFq8iz4WC6YzrRE6VBUL8arZHqmYKBF52QrPKbRgmRK
-
+```
 
 ## Connect with me and send me a mail
 
