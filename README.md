@@ -32,9 +32,28 @@ Live Dapp - https://talent-musica.vercel.app/
 
 Youtube Url: https://youtu.be/6X2J0Yo-p8A
 
-Livepeer stream id: https://livepeer.studio/dashboard/streams/1424bb39-66b6-4bfa-8343-1abb5519c91a
+## Transaction Nonce demp
 
-Deployed to BSC Testnet: [0xe078fe7a93017f8e18c1c52e79632d0b94c56c26](https://testnet.bscscan.com/address/0xe078fe7a93017f8e18c1c52e79632d0b94c56c26)
+ts-node app -waitTime 0 # useNonce is false by default
+
+ts-node app -waitTime 120000 # useNonce is false by default
+
+ts-node app -useNonce -waitTime 120000
+
+Output
+
+Attempting to send a transaction using a nonce. Waiting 12000ms before signing to simulate an offline transaction.
+---Step 1---Funding accounts
+---Step 2---Creating nonce account
+      Nonce Acct Created:  3XzR...USMq
+---Step 3---Creating transaction
+      Auth: EVxuoBFLQ8KpTLChkgW4RBU5pdxvCLUndntUsNW1cSyQ
+      Nonce: H4rwV9cdhcwNk4jSUxRTgrnSnkLYCTU7c8Vc3ZS6RNRQ
+      Tx written to ./unsigned.json
+---Step 4---Signing transaction offline
+      Tx written to ./signed.json
+---Step 5---Executing transaction
+      Tx sent:  5Ep3sPV1r1hr73kKQG8Q2xD4B9erPEzW7Hitxwe8iwBooXFq8iz4WC6YzrRE6VBUL8arZHqmYKBF52QrPKbRgmRK
 
 
 ## Connect with me and send me a mail

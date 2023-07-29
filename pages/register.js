@@ -12,7 +12,7 @@ export default function Home() {
         <MainView />
       ) : (
         <div className='loginContainer'>
-          <div className='loginTitle'>Log in to Musik Mart</div>
+          <div className='loginTitle'>Log in to MusikMart</div>
           <div className='loginSubTitle'>
             Manage your account, Signup or Login to access Marketplace
           </div>
