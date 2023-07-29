@@ -8,7 +8,7 @@ import { getProgramInstance } from '../utils/utils'
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token'
 import useAccount from '../hooks/useAccount'
 import style from '../styles/MainView.module.css'
-// import anchor from '@project-serum/anchor'
+
 const anchor = require('@project-serum/anchor')
 const utf8 = anchor.utils.bytes.utf8
 const { BN, web3 } = anchor

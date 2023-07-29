@@ -10,7 +10,7 @@ receiver : 9q6RByUTXvQpBDXUTBc97UspWVZcRQQj47MWPATgxH25
 ## Introduction
 This project seeks to address how music can be a Non Fugible asset. The web3 world is currently revolutionizing the Music Industry and Music digital art. We intend to make Music a Non Fungible Toke (NFT) that one can collect and have in thier wallet. The project seeks to create an on-chain music Dapp where young music talents can upload their creation and mint it to the Music marketplace as Video NFTs. This Musics and Digital Arts in the Markeplace can continue to make money for the creators.
 
-![MusikMart](https://bafybeibuagnt726vfndkbbwwiingiy45ivmmspoh4omq5gvut5tuyteyki.ipfs.nftstorage.link/)
+![MusikMart](https://i.postimg.cc/5tgshcbX/musicsplash.png)
 
 ## Problem
 Solana Blockchain came with lots of possibities for the Blockchain and web3 ecosystem. Even though there are lots of excellent feature (like scalability, Low Transaction Fees,  Energy Efficiency, Cross-Chain Compatibility, Governance Security, etc ) that puts Solana ahead of other Blockchains, Many creators from the music industry still not find it easy creating onchain music streaming or Music Marketplace. This is due the high cost of transaction cost paid to mint a  large music file onchain. This is discouraging but ... here come the solution
