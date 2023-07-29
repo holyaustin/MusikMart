@@ -8,4 +8,5 @@ const config = withPlugins([[withBundleAnalyzer({ enabled: false })]], {
   reactStrictMode: true,
 })
 
+
 export default config

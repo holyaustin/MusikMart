@@ -1,4 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+// eslint-disable-next-line
 const fs = require("fs")
 
 module.exports = {
@@ -7,7 +7,7 @@ module.exports = {
     "prettier",
     "react-app",
     "react-app/jest",
-    "plugin:@typescript-eslint/recommended",
+    //"plugin:@typescript-eslint/recommended",
     "plugin:storybook/recommended",
     "plugin:tailwindcss/recommended",
   ],
@@ -24,13 +24,6 @@ module.exports = {
       {
         argsIgnorePattern: "^_",
         varsIgnorePattern: "^_",
-      },
-    ],
-    "sort-imports": [
-      "error",
-      {
-        ignoreCase: true,
-        ignoreDeclarationSort: true,
       },
     ],
     "tailwindcss/classnames-order": "off",

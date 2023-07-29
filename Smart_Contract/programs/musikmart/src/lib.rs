@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::log::sol_log_compute_units;
-use solana_program::entrypoint::ProgramResult;
+use anchor_lang::solana_program::entrypoint::ProgramResult;
 use std::mem::size_of;
 
 declare_id!("9P8wQVP39pAauwbh9y1zv34sdcreXsdLeeojv4hrWc7W");

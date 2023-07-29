@@ -33,7 +33,7 @@ export function NFTItem({ nft, network }: NFTItemProps) {
             style={responsiveIframe} 
             src={nft.cached_image_uri ?? nft.image_uri}
             className="w-full h-auto object-contain aspect-video" 
-            alt={nft.name} 
+            //alt={nft.name} 
             />
         </AspectRatio>
         </a>
