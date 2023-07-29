@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import ConnectWalletButton from "@/components/connect-wallet-button"
 import { NetworkSelect } from "@/components/network-select"
 import { NFTItem, NFTItemSkeleton } from "@/components/nft-item"
+import Pyth from "@/components/pyth"
 import { Button } from "@/components/ui/button"
 import { SelectTrigger, SelectValue } from "@/components/ui/select"
 import { useToast } from "@/components/ui/toast"
@@ -51,6 +52,7 @@ export default function Transfer() {
       <div className="mb-10 flex items-center justify-between">
         <Typography as="h4" level="h6" className="mb-2 font-bold">
           Music and Digital Art NFT Marketplace
+          {/** <Pyth /> */}
         </Typography>
 
         <div className="w-auto">
@@ -80,6 +82,7 @@ export default function Transfer() {
                 <div className="py-10  flex flex-col items-center justify-center gap-5">
                   <Typography className="font-semibold" color="secondary">
                     No Music NFT
+                  
                   </Typography>
                   <Link href="/mint">
                     <Button>Create one</Button>

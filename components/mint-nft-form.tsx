@@ -367,6 +367,7 @@ export function MintNFTForm() {
                     <Input placeholder="Merkle tree address"  error={fieldState.invalid} {...field} />
                   </FormControl>
                   <FormMessage />
+                  <FormDescription> Leave default unless you want to create a new merkle account</FormDescription>
                 </FormItem>
               )}
             />
@@ -382,7 +383,7 @@ export function MintNFTForm() {
                     <Input placeholder="Receiver wallet (optional)"  error={fieldState.invalid} {...field} />
                   </FormControl>
                   <FormMessage />
-                  <FormDescription>Account address which will receive the newly created NFT.</FormDescription>
+                  <FormDescription>Account address which will receive the newly created NFT. If Markeplace, Leave default</FormDescription>
                 </FormItem>
               )}
             />
