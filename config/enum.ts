@@ -1,1 +1,1 @@
-export const Networks = ["mainnet-beta", "devnet", "testnet"] as const
+export const Networks = ["devnet", "mainnet-beta", "testnet"] as const

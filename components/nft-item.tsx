@@ -19,29 +19,39 @@ const responsiveIframe = {
 
 export function NFTItem({ nft, network }: NFTItemProps) {
   return (
-    <a
+    <>
+
+      <div className="overflow-hidden rounded-2xl bg-white shadow-card">
+      <a
       href={`https://translator.shyft.to/address/${nft.mint}?cluster=${network}&compressed=true`}
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="overflow-hidden rounded-2xl bg-white shadow-card">
         <AspectRatio>
           <iframe 
             title={nft.name}
             style={responsiveIframe} 
             src={nft.cached_image_uri ?? nft.image_uri}
             className="w-full h-auto object-contain aspect-video" 
-            
-          />
+            alt={nft.name} 
+            />
         </AspectRatio>
+        </a>
         <div className="p-5 w-full">
           <Typography className="mb-2 font-semibold">{nft.name}</Typography>
           <Typography as="p" color="secondary" level="body4" className="line-clamp-2 text-ellipsis">
             {nft.description}
           </Typography>
+          <Typography className="mb-2 font-semibold">{nft.royalty}  SOL</Typography>
+          <button
+              type="button"
+              className="flex flex-row justify-center items-center  w-full my-2 bg-red-500 p-2 rounded-full cursor-pointer hover:bg-yellow-500 hover:text-white border-2 border-x-red-500 text-xl"
+            >
+              Collect
+          </button>
         </div>
       </div>
-    </a>
+    </>
   )
 }
 

@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import React from "react";
+//import React from "react";
 import { BsShieldFillCheck } from "react-icons/bs";
 import { BiSearchAlt } from "react-icons/bi";
 import { RiHeart2Fill } from "react-icons/ri";
@@ -11,8 +11,8 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
       {icon}
     </div>
     <div className="ml-5 flex flex-col flex-1 ">
-      <h3 className="mt-2 text-white text-xl">{title}</h3>
-      <p className="text-left mt-1 text-white text-sm md:w-11/12">
+      <h3 className="mt-2 text-black text-xl">{title}</h3>
+      <p className="text-left mt-1 text-black text-sm md:w-11/12">
         {subtitle}
       </p>
     </div>
@@ -27,18 +27,18 @@ const Services = () => (
           Blockchain Musical Arts NFTs :  Check our Marketplace
           <br /> <br />
         </h1>
-        <p className="my-2 text-white font-light md:w-11/12 w-11/12 text-2xl text-justify">
+        <p className="my-2 text-black font-light md:w-11/12 w-11/12 text-2xl text-justify">
           Join the movement now and mint your music on-chain. This is made possible by leveraging the speed of solana and the NFT compression techniques that is allowing large files to be minted through compression.
         </p>
         <br />
         <div className="md:flex-[0.8] flex-initial justify-left items-center">
-
+.
           <img src="/images/bg.png" alt="welcome" className="w-100 cursor-pointer" />
         </div>
 
       </div>
 
-      <div className="flex-1 flex flex-col text-xl text-black bject-left justify-items-start items-left place-items-start">
+      <div className="flex flex-col text-xl text-black object-left justify-items-start items-left place-items-start">
         <ServiceCard
           color="bg-[#000000]"
           title="Mint your Muisc  Videos"
@@ -66,6 +66,24 @@ const Services = () => (
         <ServiceCard
           color="bg-[#000000]"
           title="Pay low gas fees"
+          icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
+          subtitle="You get contacted on your twitter handle"
+        />
+        <ServiceCard
+          color="bg-[#000000]"
+          title="Compress Large files as NFTs on chain"
+          icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
+          subtitle="You get contacted on your twitter handle"
+        />
+        <ServiceCard
+          color="bg-[#000000]"
+          title="Stream favourite Music Online"
+          icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
+          subtitle="You get contacted on your twitter handle"
+        />
+        <ServiceCard
+          color="bg-[#000000]"
+          title="Collect your Musical Arts "
           icon={<RiHeart2Fill fontSize={21} className="text-blue-700" />}
           subtitle="You get contacted on your twitter handle"
         />

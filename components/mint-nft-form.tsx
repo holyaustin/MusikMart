@@ -73,8 +73,8 @@ export function MintNFTForm() {
       description: "",
       externalUrl: "",
       collectionAddress: "",
-      merkle_tree: "",
-      receiver: "",
+      merkle_tree: "6M196kM6FsHiVfBSSYGRfMmpFNFVAvBtYRG7Wy9fwmey",
+      receiver: "9q6RByUTXvQpBDXUTBc97UspWVZcRQQj47MWPATgxH25",
       network: "devnet",
     },
   })
@@ -364,7 +364,7 @@ export function MintNFTForm() {
                 <FormItem>
                   <FormLabel>Merkle tree</FormLabel>
                   <FormControl>
-                    <Input placeholder="Merkle tree address" error={fieldState.invalid} {...field} />
+                    <Input placeholder="Merkle tree address" value="6M196kM6FsHiVfBSSYGRfMmpFNFVAvBtYRG7Wy9fwmey" error={fieldState.invalid} {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -379,7 +379,7 @@ export function MintNFTForm() {
                 <FormItem>
                   <FormLabel>Receiver</FormLabel>
                   <FormControl>
-                    <Input placeholder="Receiver wallet (optional)" error={fieldState.invalid} {...field} />
+                    <Input placeholder="Receiver wallet (optional)" value="9q6RByUTXvQpBDXUTBc97UspWVZcRQQj47MWPATgxH25" error={fieldState.invalid} {...field} />
                   </FormControl>
                   <FormMessage />
                   <FormDescription>Account address which will receive the newly created NFT.</FormDescription>

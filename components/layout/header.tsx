@@ -41,13 +41,13 @@ export const Header = () => {
           </a>
         </div>
         <div className="text-2xl font-bold items-start justify-left p-6"> 
-          MusicMart :: Your Music and Musical Art NFT Marketplace 
+          MusikMart 
           </div>
           <div className="text-2xl font-bold items-start justify-left"> 
           
           <ul className="text-2xl font-bold  mb-6 flex flex-wrap items-center text-yellow-500 sm:mb-0">
             <li>
-              <a href="/view" className="mr-4 hover:underline md:mr-6 ">
+              <a href="/marketplace" className="mr-4 hover:underline md:mr-6 ">
               EXPLORE
               </a>
             </li>

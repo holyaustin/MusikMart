@@ -15,7 +15,7 @@ export type BaseResponse<T> = {
   result: T
 }
 
-export type Network = "mainnet-beta" | "devnet" | "testnet"
+export type Network = "devnet" | "mainnet-beta" | "testnet"
 
 export type CreateMerkleTreeRequestBody = {
   network: Network

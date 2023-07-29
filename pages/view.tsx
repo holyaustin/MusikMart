@@ -11,7 +11,7 @@ import { Typography } from "@/components/ui/typography"
 import { readAllNFTs } from "@/libs/shyft"
 import { Network, Nft } from "@/types"
 
-export default function Transfer() {
+export default function Marketplace() {
   const { connected, publicKey } = useWallet()
   const [loading, setLoading] = useState(false)
   const [network, setNetwork] = useState<Network>("mainnet-beta")

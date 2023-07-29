@@ -11,7 +11,12 @@ export const NavItems = [
   {
     text: "Index Page",
     href: Routes.INDEX,
-    icon: <TreePineIcon />,
+    icon: <FlameIcon />,
+  },
+  {
+    text: "NFT Marketplace",
+    href: Routes.MART,
+    icon: <TruckIcon />,
   },
   {
     text: "Merkle Tree",
@@ -19,22 +24,22 @@ export const NavItems = [
     icon: <TreePineIcon />,
   },
   {
-    text: "Mint cNFT",
+    text: "Mint Music NFT",
     href: Routes.MINT_NFT,
     icon: <ImagePlusIcon />,
   },
   {
-    text: "Your cNFTs",
+    text: "Your NFTs",
     href: Routes.VIEW_NFTS,
     icon: <ImageIcon />,
   },
   {
-    text: "Transfer cNFT",
+    text: "Transfer NFT",
     href: Routes.TRANSFER_NFT,
     icon: <TruckIcon />,
   },
   {
-    text: "Burn cNFT",
+    text: "Burn NFT",
     href: Routes.BURN_NFT,
     icon: <FlameIcon />,
   },
