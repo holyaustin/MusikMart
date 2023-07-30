@@ -14,7 +14,7 @@ export default function Home() {
         <div className='loginContainer'>
           <div className='loginTitle'>Log in to MusikMart</div>
           <div className='loginSubTitle'>
-            Manage your account, Signup or Login to access Marketplace
+            Make sure to connect your wallet to Signup or Login to access Marketplace
           </div>
           {/**<WalletMultiButton  /> */}
 

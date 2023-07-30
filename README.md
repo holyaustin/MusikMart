@@ -1,6 +1,6 @@
 # MusikMart - Compressed Music and Art NFTs
 
-A collection of Compressed Music NFTs with Shyft on Solana Blockchain..
+A collection of Compressed Music NFTs with Shyft on Solana Blockchain.
 
 merkel address : 6M196kM6FsHiVfBSSYGRfMmpFNFVAvBtYRG7Wy9fwmey
 receiver : 9q6RByUTXvQpBDXUTBc97UspWVZcRQQj47MWPATgxH25
@@ -8,7 +8,7 @@ receiver : 9q6RByUTXvQpBDXUTBc97UspWVZcRQQj47MWPATgxH25
 # MusikMart - Compressed Music and Art NFTs
 
 ## Introduction
-This project seeks to address how music can be a Non Fugible asset. The web3 world is currently revolutionizing the Music Industry and Music digital art. We intend to make Music a Non Fungible Toke (NFT) that one can collect and have in thier wallet. The project seeks to create an on-chain music Dapp where young music talents can upload their creation and mint it to the Music marketplace as Video NFTs. This Musics and Digital Arts in the Markeplace can continue to make money for the creators.
+This project seeks to address how music can be a Non Fungible asset. The web3 world is currently revolutionizing the Music Industry and Music digital art. We intend to make Music a Non-Fungible Token (NFT) that one can collect and have in thier wallet. The project seeks to create an on-chain music Dapp where young music talents can upload their creation and mint it to the Music marketplace as Video NFTs. This Musics and Digital Arts in the Marketplace can continue to make money for the creators.
 
 ![MusikMart](https://i.postimg.cc/5tgshcbX/musicsplash.png)
 
@@ -25,13 +25,27 @@ Music creators and produces should now rejoice because Solana developers have cr
 Frontend: Next.js, Storybook, postcss, tailwindcss, eslint, prettier
 web3 technologies: Wallet (Phantom, Solflare), Shyft, Anchor, solana/web3.js
 Backend: Shyft API, Node.js, 
-Blockchain : Solana (Devnet, Testnet, Mainnet Beta)
+Blockchain : Solana (Devnet, Testnet, Mainnet Beta) clusters
  
 ## Demo / Live Links
 
 Live Dapp - https://musikmart.vercel.app/
 
-Youtube Url: https://youtu.be/6X2J0Yo-p8A
+Youtube Url: https://youtu.be/7fSmcLVKwsc
+
+## Sponsor Tech Integration
+Solana - Deployed on Solana Devnet on https://explorer.solana.com/address/9P8wQVP39pAauwbh9y1zv34sdcreXsdLeeojv4hrWc7W?cluster=devnet
+
+Program Smartcontract on https://github.com/holyaustin/MusikMart/blob/main/Smart_Contract/programs/musikmart/src/lib.rs
+
+Phantom Durable Nounce: https://github.com/holyaustin/MusikMart/blob/main/components/nounce.ts
+
+Shyft: Compressed Music NFT Marketplace : https://translator.shyft.to/address/9q6RByUTXvQpBDXUTBc97UspWVZcRQQj47MWPATgxH25?cluster=devnet
+
+Shyft api - https://github.com/holyaustin/MusikMart/blob/main/libs/shyft.ts
+
+Helius: Compressed Music NFT : https://github.com/holyaustin/MusikMart/blob/main/components/mint-nft-form.tsx
+
 
 ## Transaction Nonce demp
 ```

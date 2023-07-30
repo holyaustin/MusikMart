@@ -36,20 +36,23 @@ export function NFTItem({ nft, network }: NFTItemProps) {
             //alt={nft.name} 
             />
         </AspectRatio>
-        </a>
+        
+
         <div className="p-5 w-full">
           <Typography className="mb-2 font-semibold">{nft.name}</Typography>
           <Typography as="p" color="secondary" level="body4" className="line-clamp-2 text-ellipsis">
             {nft.description}
           </Typography>
           <Typography className="mb-2 font-semibold">{nft.royalty}  SOL</Typography>
-          <button
+
+        </div>
+        </a>
+        <button
               type="button"
               className="flex flex-row justify-center items-center  w-full my-2 bg-red-500 p-2 rounded-full cursor-pointer hover:bg-yellow-500 hover:text-white border-2 border-x-red-500 text-xl"
             >
               Collect
           </button>
-        </div>
       </div>
     </>
   )
